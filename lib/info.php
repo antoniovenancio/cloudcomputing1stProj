@@ -6,6 +6,6 @@ function getObjectFromFile($filename)
     return json_decode($str);
 }
 
-$config = getObjectFromFile('config/config.json');
+$config = getObjectFromFile('../config/config.json');
 
-$info =  getObjectFromFile('config/info.json');
+$info =  getObjectFromFile('../config/info.json');

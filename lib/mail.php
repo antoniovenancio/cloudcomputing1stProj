@@ -1,8 +1,8 @@
 <?php
 namespace myapp;
 
-require_once 'vendor/swiftmailer/swiftmailer/lib/swift_required.php';
-require_once 'lib/info.php';
+require_once '../vendor/swiftmailer/swiftmailer/lib/swift_required.php';
+require_once '../lib/info.php';
 
 class Mail
 {

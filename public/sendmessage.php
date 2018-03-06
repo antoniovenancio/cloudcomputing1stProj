@@ -1,7 +1,7 @@
     <?php
     session_start();
-    require_once('lib/info.php');
-    require_once('lib/mail.php');
+    require_once('../lib/info.php');
+    require_once('../lib/mail.php');
 
     $msg = array();
     $values = $_POST;

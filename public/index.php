@@ -1,5 +1,5 @@
     <?php
-    require_once('lib/info.php');
+    require_once('../lib/info.php');
 
     session_start();
     $msg= array();
@@ -29,7 +29,7 @@
     <meta charset="UTF-8">
     <title>Cloud Computing Student</title>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../css/layout.css" />
 </head>
 <body>
     <div id="wrapper">
@@ -40,7 +40,7 @@
         </div>
         <div id="leftcolumnwrap">
             <div id="leftcolumn">
-            <img src="img/image.png" alt="Photo">
+            <img src="../img/image.png" alt="Photo">
             </div>
         </div>
         <div id="contentwrap">
